@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang=en><head>
+	<title>Home for SKCro</title>
+	<link rel=stylesheet type=text/css href=../css/style.css>
+	<link rel=stylesheet type=text/css href=../css/service.css>
+	<link rel=stylesheet type=text/css href=../css/home.css>
+	<script src=../js/main.js></script>
+	<script src=../js/cookies.js></script>
+	<script src=../js/home.js></script>
+	<meta charset=UTF-8>
+	<meta name=viewport content="width=device-width,initial-scale=1">
+</head><body>
+<main class=main-msn>
+	<nav class=top-nav-msn aria-label="Main navigation bar">
+		<nav class=top-bar-msn aria-label="Top row of navigation bar: Contains Credits link and search bar">
+			<img class="top-logo-msn clickable" role=button src=../images/MSNLogo.svg alt="MSN logo" aria-label="MSN logo - Click to go to the credits page" onclick=go('credits.html')>
+			<div class=search-bar-container aria-label="Search bar container">
+				<p aria-hidden=true><b>TYPE SEARCH WORDS OR A WEB ADDRESS:</b></p>
+				<form onsubmit=search(event) style=display:grid>
+					<input type=text id=q class=search-bar autofill=false aria-label="Search bar: Type search words or a web address here">
+					<input type=submit class="submit go-button" title=Go aria-label=Go>
+				</form>
+			</div>
+		</nav>
+		<nav class=top-links-msn aria-label="Bottom row of navigation bar: Contains links to various areas">
+			<a class="top-link msn clickable" href=../wtv-mail/mail.html>E-mail</a>|
+			<a class="top-link msn clickable" href=../wtv-center/search.html>Search</a>|
+			<a class="top-link msn clickable" href=../wtv-favorite/favorite.html>Favorites</a>|
+			<a class="top-link msn clickable" href=../wtv-chat/chatPage.html>Chat</a>|
+			<a class="top-link msn clickable">Messenger</a>|
+			<a class="top-link msn clickable" href=javascript:parent.view()>TV Home</a>
+		</nav>
+	</nav>
+	<section class=main-area-msn>
+		<aside class="side-links side-nav">
+			<h4>Popular Links</h4>
+			<nav class=popular-links aria-label="Popular links list">
+				<a class=clickable>Your letters</a>
+				<a class=clickable>Printer deals</a>
+				<a class=clickable>MSN TV Tips</a>
+				<a class=clickable>Page Builder</a>
+				<a class=clickable>Discuss</a>
+				<a class=clickable>More links...</a>
+			</nav>
+			<h4>Centers</h4>
+			<nav class=centers aria-label="Centers list">
+				<a class=clickable>News</a>
+				<a class=clickable>Shopping</a>
+				<a class=clickable>Entertainment</a>
+			</nav>
+			
+		</aside>
+		<section class=main-content-msn>
+			<nav class=main-content-links aria-label="Popular links list">
+				<a class="clickable firstlink">Switch User</a>
+				<a class=clickable href=../wtv-setup/setup.html>Settings</a>
+				<a class=clickable>Account</a>
+				<a Href="Help.txt" class=clickable>Help</a>
+			</nav>
+<div class=news-container>
+				<header class=news-header>Msn Today</header>
+				<div class=news-content>
+					<ul class=arrowed-list>
+						<li><a href="welcome.txt" class=clickavle>Welcome to WebTv!</a></li>
+						<li><a href="sent.txt" class=clickable>no title</a></li>
+						<li><a class=clickable></a></li>
+					</ul>
+				</div>
+			</div>
+    </section>
+	</section>
+</main></body></html>
